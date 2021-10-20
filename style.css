@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Itim', cursive; */
+    font-family: 'IM Fell English SC', serif;
+}
+
+.bg {
+    /* background-color: #12181B; */
+    /* background-color: #e84393;
+    background-image: linear-gradient(315deg, #e84393 0%, #000000 74%); */
+    background-color: #130f40;
+background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+    height: 100vh;
+    padding-top: 2px;
+}
+
+.title {
+    color: white;
+    font-family: 'IM Fell English SC', serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10%;
+}
+
+.display {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+
+}
+
+.tile {
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.playerX {
+    color: #CCFF00;
+}
+
+.playerO {
+    color: #FF355E;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.controls button {
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+    
+}
+
+.restart {
+    background-color: #498AFB;
+}
+
+#reset {
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #A7F432;
+}
